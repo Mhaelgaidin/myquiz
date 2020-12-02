@@ -3,12 +3,69 @@
 }
 
 .App-header {
-  background-color: #10002b;
+  background-color: #050505;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #faf9f9;
+  color: #050505;
+}
+
+.container {
+  width: 80vw;
+  height: 75vh;
+  background-color: #e8e8e8;
+  border: solid 1px #546a7b;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+.question {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+
+.options {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.option {
+  width: 45%;
+  border: 1px solid #546a7b;
+  border-radius: 3px;
+  margin: 5px;
+  background-color: #1098f7;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e8e8e8;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20%;
+}
+
+.results {
+  height: 80%;
+  width: 100%;
+  overflow: auto;
+}
+
+p {
+  margin: 5px;
 }
